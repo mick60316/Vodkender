@@ -1,0 +1,9 @@
+0,Water,水
+1,Vodka,伏特加
+2,Rum,萊姆酒
+3,GIN,琴酒
+4,Whisky,威士忌
+5,Tequila,龍舌蘭
+6,Orange,柳橙汁
+7,Cranberry,蔓越莓汁
+8,Lemon Juice,檸檬汁
