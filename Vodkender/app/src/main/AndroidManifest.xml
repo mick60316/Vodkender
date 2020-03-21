@@ -24,10 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="com.example.vodkender.VodkenderMainActivity"></activity>
-        <activity android:name="com.example.vodkender.VodkenderActionActivity"></activity>>
-        <service android:name="com.example.vodkender.BleService.BleService"></service>
+        <activity android:name=".VodkenderMainActivity"></activity>
+        <activity android:name=".VodkenderActionActivity"></activity>
+        <service android:name=".BleService.BleService"></service>
+        
     </application>
 
 </manifest>

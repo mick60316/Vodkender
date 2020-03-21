@@ -53,7 +53,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
                     // do something
                     Intent intent = new Intent(context, VodkenderActionActivity.class);
-                    Bundle bundle =new Bundle();
+                    intent.putExtra("drink",drink);
                  //   bundle.putSerializable("drink",drink);
 
                     // If you just use this that is not a valid context. Use ActivityName.this

@@ -21,8 +21,8 @@ public class MaterialManager {
     private Map<String,Integer> mCurrentMap =new HashMap<String, Integer>();
 
 
-    private static final String MATERIAL_MAP_FILE_URL ="/storage/emulated/0/Documents/BartenderMap.txt";
-    private static final String CURRENT_MAP_FILE_URL ="/storage/emulated/0/Documents/BartenderMaterial.txt";
+    private static final String MATERIAL_MAP_FILE_URL ="/storage/emulated/0/Documents/VodkenderMap.txt";
+    private static final String CURRENT_MAP_FILE_URL ="/storage/emulated/0/Documents/VodkenderMaterial.txt";
     private static final String FAIL_TO_READ_STRING ="fail";
 
     public MaterialManager()

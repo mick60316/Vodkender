@@ -5,7 +5,9 @@ import android.media.Image;
 
 import com.example.vodkender.DataSrtucture.Formula;
 
-public class Drink {
+import java.io.Serializable;
+
+public class Drink  implements Serializable {
 
     private String mChineseName="";
     private String mEnglishName = "";
