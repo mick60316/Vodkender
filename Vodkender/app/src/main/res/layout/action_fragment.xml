@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        <RelativeLayout
+            android:layout_width="540dp"
+            android:layout_height="180dp">
+            <ImageView
+                android:id="@+id/iconImage"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+            </ImageView>
+            <TextView
+                android:id="@+id/infoNameText"
+                android:layout_width="321dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="159dp"
+                android:layout_marginTop="39dp"
+                android:textSize="24sp"
+                android:gravity="left"
+                ></TextView>
+            <TextView
+                android:id="@+id/storyText"
+                android:layout_width="240dp"
+                android:layout_height="65dp"
+                android:textSize="15sp"
+                android:layout_marginTop="69dp"
+                android:layout_marginLeft="159dp"
+                android:text="Hello world"
+                android:textColor="#BDBDBD">
+            </TextView>
+            <Button
+                android:id="@+id/readmoreButton"
+                android:layout_width="321dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="135dp"
+                android:text="Read More"
+                android:background="#00000000"
+                android:textColor="#E7929E"
+                android:gravity="right">
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="540dp"
+            android:layout_height="960dp"
+            android:background="#F5F5F5">
+            <ImageButton
+                android:id="@+id/start_button"
+                android:layout_width="350dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/btn_normal">
+            </ImageButton>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="20dp"
+                android:text="開始調酒"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#FFFFFF">
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

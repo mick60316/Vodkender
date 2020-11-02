@@ -1,13 +1,18 @@
 package com.example.vodkender.DataSrtucture;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Formula {
+public class Formula implements Serializable {
     Map<String ,Integer> mIngredient =new HashMap<String,Integer>();
     public  Formula ()
     {
 
+    }
+    public Formula (Map <String,Integer> mIngredient)
+    {
+        this.mIngredient=mIngredient;
     }
 
     public  void addIngredient (String name,int unit)
@@ -22,5 +27,9 @@ public class Formula {
     {
         mIngredient.clear();
     }
-    public Map<String ,Integer> getIngredient (){return mIngredient;}
+    public Map<String ,Integer> getIngredient (){
+        System.out.println("Size "+mIngredient.size());
+        return mIngredient;
+
+    }
 }
