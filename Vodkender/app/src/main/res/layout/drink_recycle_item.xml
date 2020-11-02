@@ -7,27 +7,49 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="-5dp"
                 android:layout_marginTop="-21dp"
-                android:background="#F5F5F5"
-                android:layout_marginLeft="-5dp">
+                android:background="#F5F5F5">
+
                 <ImageView
                     android:layout_width="520dp"
                     android:layout_height="150dp"
                     android:src="@mipmap/pic_card_bg" />
+
                 <TextView
                     android:id="@+id/chineseName"
                     android:layout_width="321dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="189dp"
+                    android:layout_marginLeft="150dp"
                     android:layout_marginTop="29dp"
+                    android:text="Name"
                     android:textColor="#000000"
-                    android:text="Hello world"
                     android:textSize="24sp" />
 
-        </RelativeLayout>
+                <TextView
+                    android:id="@+id/alcohol"
+                    android:layout_width="219dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="59dp"
+                    android:text="酒精濃度"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:id="@+id/food"
+                    android:layout_width="219dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="101dp"
+                    android:text="搭配"
+                    android:textColor="#000000"
+                    android:textSize="21sp"></TextView>
+
+            </RelativeLayout>
 
             <ImageView
                 android:id="@+id/iconImage"
