@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.View;
 
 import com.example.vodkender.BleService.BleService;
+import com.example.vodkender.Component.MaterialManager;
 
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class VodkenderLoadingActivity extends Activity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.loading_page);
         setActivityInfo();
-        DatabaseSync databaseSync =new DatabaseSync();
+        DatabaseLinker databaseLinker =new DatabaseLinker();
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override

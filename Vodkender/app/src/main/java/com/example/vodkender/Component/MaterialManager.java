@@ -1,19 +1,15 @@
-package com.example.vodkender;
+package com.example.vodkender.Component;
 
 import android.util.Log;
 
+import com.example.vodkender.DataSrtucture.Drink;
 import com.example.vodkender.DataSrtucture.Formula;
-import com.example.vodkender.Fragment.MainFragment;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.Serializable;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -79,7 +75,7 @@ public class MaterialManager implements Serializable {
                 String story = jsonObject.getString("Story");
                 Formula formula = new Formula(materials);
                 String machineCode = getMachineCodeFromFormula(formula);
-                Drink drink = new Drink(objName, objFood, formula, imageSource, alcohol, story, machineCode);
+                Drink drink = new Drink(objName, objFood,material, formula, imageSource, alcohol, story, machineCode);
                 result.add(drink);
             }
 

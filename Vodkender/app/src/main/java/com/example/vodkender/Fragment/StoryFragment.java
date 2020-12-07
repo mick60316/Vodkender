@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.vodkender.Drink;
+import com.example.vodkender.DataSrtucture.Drink;
 import com.example.vodkender.R;
 
 public class StoryFragment extends Fragment {

@@ -52,6 +52,27 @@
             android:layout_width="540dp"
             android:layout_height="960dp"
             android:background="#F5F5F5">
+            <TextView
+                android:layout_width="321dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="24sp"
+                android:textColor="#6B6B6B"
+                android:text="配方"
+                ></TextView>
+            <TextView
+                android:id="@+id/materialText"
+                android:layout_width="321dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="21sp"
+                android:textColor="#7D7D7D"
+                android:text="配方"
+                ></TextView>
+
+
             <ImageButton
                 android:id="@+id/start_button"
                 android:layout_width="350dp"
