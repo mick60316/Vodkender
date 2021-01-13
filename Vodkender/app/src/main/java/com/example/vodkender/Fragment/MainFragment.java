@@ -9,16 +9,15 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.vodkender.ExtraTools;
-import com.example.vodkender.MaterialManager;
+import com.example.vodkender.Component.ExtraTools;
+import com.example.vodkender.Component.MaterialManager;
 import com.example.vodkender.R;
-import com.example.vodkender.RecycleViewAdapter;
+import com.example.vodkender.Component.RecycleViewAdapter;
 
 import static androidx.navigation.fragment.NavHostFragment.findNavController;
 

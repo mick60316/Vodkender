@@ -1,4 +1,4 @@
-package com.example.vodkender;
+package com.example.vodkender.Component;
 
 import android.util.Log;
 

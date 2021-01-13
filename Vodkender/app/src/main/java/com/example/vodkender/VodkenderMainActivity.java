@@ -1,15 +1,12 @@
 package com.example.vodkender;
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Point;
-import android.icu.lang.UScript;
-import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.StrictMode;
@@ -26,20 +23,15 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.vodkender.BleService.BleService;
+import com.example.vodkender.Component.ExtraTools;
+import com.example.vodkender.DataSrtucture.Drink;
 import com.example.vodkender.Fragment.MainFragment;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 public class VodkenderMainActivity extends AppCompatActivity implements View.OnClickListener , MainFragment.MainFragmentCallback {
 
@@ -180,7 +172,7 @@ public class VodkenderMainActivity extends AppCompatActivity implements View.OnC
 
     @Override
     public void getStaus(int status) {
-        if (status==ExtraTools.ONPAUSE_STATUS)
+        if (status== ExtraTools.ONPAUSE_STATUS)
         {
             mSettingButton.setImageResource(R.mipmap.ic_back);
         }

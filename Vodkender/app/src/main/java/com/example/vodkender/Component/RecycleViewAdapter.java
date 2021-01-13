@@ -1,7 +1,6 @@
-package com.example.vodkender;
+package com.example.vodkender.Component;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.vodkender.DataSrtucture.Drink;
+import com.example.vodkender.R;
 
 import java.util.List;
 
